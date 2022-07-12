@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "nzambello",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc index.ts",
+    "start": "tsc index.ts && node index.js"
+  },
   "dependencies": {
     "plone-restapi-client": "0.1.0"
   },
